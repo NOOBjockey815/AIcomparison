@@ -8,7 +8,7 @@ import json
 import plotly.graph_objects as go
 
 # Load predefined queries
-with open("data/queries.json", "r") as file:
+with open("queries.json", "r") as file:
     queries = json.load(file)
 
 st.title("🤖 AI Comparison Demo")
