@@ -1,9 +1,9 @@
 import streamlit as st
-#from api.chatgpt_api import chatgpt_stream_response
-from api.watsonx_api import watsonx_response
-#from api.perplexity_api import perplexity_response
-from api.deepseek_api import deepseek_response
-from utils.evaluation import evaluate_response
+#from chatgpt_api import chatgpt_stream_response
+from watsonx_api import watsonx_response
+#from perplexity_api import perplexity_response
+from deepseek_api import deepseek_response
+from evaluation import evaluate_response
 import json
 import plotly.graph_objects as go
 
